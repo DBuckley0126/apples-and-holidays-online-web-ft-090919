@@ -33,7 +33,7 @@ def add_supply_to_winter_holidays(holiday_hash, supply)
     value.each do |event_hash, value|
       binding.pry
       value.push(supply)
-      
+
     end
   end
 end
