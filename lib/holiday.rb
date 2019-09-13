@@ -103,6 +103,7 @@ output_array = []
     value.each do |event_hash, value|
       if value.includes?("BBQ")
         output_array << event_hash
+      end
     end
   end
 end
