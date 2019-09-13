@@ -31,8 +31,9 @@ def add_supply_to_winter_holidays(holiday_hash, supply)
 
   if season_hash == "winter"
     value.each do |event_hash, value|
-      value.push(supply)
       binding.pry
+      value.push(supply)
+      
     end
   end
 end
