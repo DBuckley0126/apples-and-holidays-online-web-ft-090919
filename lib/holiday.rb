@@ -107,4 +107,5 @@ output_array = []
       end
     end
   end
+  output_array
 end
