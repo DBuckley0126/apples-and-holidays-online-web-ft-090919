@@ -101,8 +101,9 @@ output_array = []
 
   holiday_hash.each do |season_hash, value|
     value.each do |event_hash, value|
+      binding.pry
       if value.include?("BBQ")
-        output_array << event_hash.keys
+        output_array << event_hash
       end
     end
   end
